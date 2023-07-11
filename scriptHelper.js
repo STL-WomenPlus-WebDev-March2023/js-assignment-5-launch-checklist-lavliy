@@ -31,6 +31,7 @@ function formSubmission(document, list, pilot, copilot, fuelLevel, cargoMass) {
    let copilotStatus = document.getElementById('copilotStatus');
    let fuelStatus = document.getElementById('fuelStatus');
    let cargoStatus = document.getElementById('cargoStatus');
+   let launchStatus = document.getElementById('launchStatus');
   
 
     pilotStatus.innerHTML = `Pilot ${pilot} is ready`;
