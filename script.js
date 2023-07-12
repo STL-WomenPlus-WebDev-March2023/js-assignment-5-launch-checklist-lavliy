@@ -12,7 +12,7 @@ window.addEventListener("load", function() {
         let fuelLevel = document.querySelector("input[name=fuelLevel]").value;
         let cargoMass = document.querySelector("input[name=cargoMass]").value;
         let list = document.getElementById('faultyItems');
-
+ 
         
    if(validateInput(pilot) === "Empty" || validateInput(copilot) === "Empty" || validateInput(fuelLevel) === "Empty" || validateInput(cargoMass) === "Empty"){
     alert("All fields are required!");
